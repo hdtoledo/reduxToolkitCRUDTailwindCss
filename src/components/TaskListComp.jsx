@@ -1,7 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { IoClose } from "react-icons/io5";
 import { FiEdit } from "react-icons/fi";
-import { FaCheck } from "react-icons/fa";
 import { deleteTask } from "../features/task/taskSlice";
 import { useNavigate } from "react-router-dom";
 
